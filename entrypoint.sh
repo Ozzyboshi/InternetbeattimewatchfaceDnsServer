@@ -75,6 +75,9 @@ if [[ -z ${1} ]]; then
     echo "Starting webmin..."
     /etc/init.d/webmin start
   fi
+  
+  echo "starting dnsupdater"
+  /root/dnsupdater /root/internetwatchfacelist.txt &
 
   echo "Starting named..."
   exec $(which named) -u ${BIND_USER} -g ${EXTRA_ARGS}
