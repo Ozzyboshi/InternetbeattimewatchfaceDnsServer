@@ -1,0 +1,3 @@
+168.235.146.117 internetbeattimewatchface.ozzy-boshi.com. curl -o /tmp/test1 -m 10 -s 168.235.146.117
+104.233.93.151 internetbeattimewatchface.ozzy-boshi.com. curl -o /tmp/test2 -m 10 -s 104.233.93.151
+104.233.88.58 internetbeattimewatchface.ozzy-boshi.com. curl -o /tmp/test3 -m 10 -s 104.233.88.58

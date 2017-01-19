@@ -1,0 +1,4 @@
+zone "internetbeattimewatchface.ozzy-boshi.com" {
+	type master;
+	file "/var/lib/bind/internetbeattimewatchface.ozzy-boshi.com.hosts";
+	};
