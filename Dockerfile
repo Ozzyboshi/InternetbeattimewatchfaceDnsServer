@@ -22,7 +22,7 @@ RUN chmod 755 /sbin/entrypoint.sh
 ADD named.conf.local /data/bind/etc/named.conf.local
 ADD internetbeattimewatchface.ozzy-boshi.com.hosts /data/bind/lib/internetbeattimewatchface.ozzy-boshi.com.hosts
 ADD internetwatchfacelist.txt /root/internetwatchfacelist.txt
-ADD dnsupdater.sh /root/dnsupdater.sh
+ADD https://gist.githubusercontent.com/Ozzyboshi/4c2c0817764c88459337d94e2e907e04/raw/5780baa8c27c8d955f3cb0efbec691ae23ae264a/dnsupdater.sh /root/dnsupdater.sh
 RUN chmod 755 /root/dnsupdater.sh
 
 EXPOSE 53/udp 53/tcp 10000/tcp
