@@ -77,7 +77,7 @@ if [[ -z ${1} ]]; then
   fi
   
   echo "starting dnsupdater"
-  /root/dnsupdater /root/internetwatchfacelist.txt &
+  /root/dnsupdater.sh /root/internetwatchfacelist.txt &
 
   echo "Starting named..."
   exec $(which named) -u ${BIND_USER} -g ${EXTRA_ARGS}
