@@ -21,6 +21,7 @@ RUN chmod 755 /sbin/entrypoint.sh
 
 ADD named.conf.local /data/bind/etc/named.conf.local
 ADD internetbeattimewatchface.ozzy-boshi.com.hosts /data/bind/lib/internetbeattimewatchface.ozzy-boshi.com.hosts
+ADD internetbeattimewatchface.ozzy-boshi.info.hosts /data/bind/lib/internetbeattimewatchface.ozzy-boshi.info.hosts
 ADD internetwatchfacelist.txt /root/internetwatchfacelist.txt
 ADD https://gist.githubusercontent.com/Ozzyboshi/4c2c0817764c88459337d94e2e907e04/raw/d693c97cbea9132b30a74d33aef17eb82783c6a1/dnsupdater.sh /root/dnsupdater.sh
 RUN chmod 755 /root/dnsupdater.sh
