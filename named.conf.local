@@ -2,3 +2,8 @@ zone "internetbeattimewatchface.ozzy-boshi.com" {
 	type master;
 	file "/var/lib/bind/internetbeattimewatchface.ozzy-boshi.com.hosts";
 	};
+zone "internetbeattimewatchface.ozzy-boshi.info" {
+	type master;
+	file "/var/lib/bind/internetbeattimewatchface.ozzy-boshi.info.hosts";
+	};
+	
