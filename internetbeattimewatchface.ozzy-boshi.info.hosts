@@ -1,0 +1,8 @@
+$ttl 38400
+internetbeattimewatchface.ozzy-boshi.info.	IN	SOA	nsmaster.ozzy-boshi.info. gun101.email.it. (
+                        2017012100
+			3H
+			3600
+			604800
+			38400 )
+internetbeattimewatchface.ozzy-boshi.info.	IN	NS	nsmaster.ozzy-boshi.info.
